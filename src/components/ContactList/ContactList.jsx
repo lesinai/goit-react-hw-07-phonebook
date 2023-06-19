@@ -94,7 +94,7 @@ export const ContactList = () => {
               ml="auto"
               bg="pink.500"
               display="flex"
-              size="40px"
+              size="15px"
               type="submit"
               onClick={() => dispatch(deleteContact(id))}
             >
