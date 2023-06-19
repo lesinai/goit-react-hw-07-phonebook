@@ -79,7 +79,7 @@ export const ContactList = () => {
             <Popover isLazy placement="top-start">
               <PopoverTrigger>
                 <Button color="pink.500" bg="white">
-                  {name}
+                  {name} : {phone}
                 </Button>
               </PopoverTrigger>
               <PopoverContent color="purple.500" w="210px">
